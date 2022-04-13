@@ -10,7 +10,7 @@ def count_pos(x, y):
 
     return 0
 
-# 근처에 좋아하는 학생 있을 경우 True 반환
+# 근처에 좋아하는 학생 있는 모든 경우의 수 반환
 def near_fri(x, y, s):
     count = 0
     # if x < 0 or x >= a or y < 0 or y >= a:
@@ -20,11 +20,68 @@ def near_fri(x, y, s):
 
     return count
 
+def search(student):
+    count_dic = {}
+    # for student in std.keys():
+
+    # 근처 친구 수, 근처 비어있는 자리, x좌표, y좌표
+    count_dic[student] = [0, 0, 0, 0]
+    count_list = []
+    for i in range(a):
+        for j in range(a):
+
+            fri_count = 0
+            x_count = 0
+            if graph[i][j] != 'X':
+                continue
+            else:
+                dx = [-1, 1, 0, 0]
+                dy = [0, 0, -1, 1]
+
+
+                for k in range(4):
+                    nx = i + dx[k]
+                    ny = j + dy[k]
+
+                    # 장외 탈락
+                    if nx < 0 or nx >= a or ny < 0 or ny >= a:
+                        continue
+
+                    fri_count += near_fri(nx, ny, student)
+                    x_count += count_pos(nx, ny)
+                # print(student, i, j, fri_count, x_count)
+                count_list.append([student, i, j, fri_count, x_count ])
+
+    fri_count_max = 0
+    x_count_max = 0
+
+    # 좋아하는 학생이 인접한 수가 가장 많은 것 거르기
+    for i in count_list:
+        if fri_count_max < i[3]:
+            fri_count_max = i[3]
+    count_dic[student][0] = fri_count_max
+
+    # 그 중 비어 있는 칸 가장 많은 것 거르기
+    for i in count_list:
+        if i[3] == fri_count_max:
+            if x_count_max < i[4]:
+                x_count_max = i[4]
+    count_dic[student][1] = x_count_max
+
+    # 그 중 가장 작은 x, y좌표 거르기
+    for i in count_list:
+        if i[3] == fri_count_max:
+            if i[4] == x_count_max:
+                x = i[1]
+                y = i[2]
+                break
+
+    graph[x][y] = student
+    # print(count_dic)
+    return graph
+
 a = int(input())
 
-# dic = {}
-# graph = [['X'] * a] * a
-std = []
 data = []
 for i in range(a*a):
     data.append(list(map(int, input().split())))
@@ -36,6 +93,16 @@ for i in range(a*a):
 # print(2 in std[4])
 # print(std)
 dic = {}
+
+graph = []
+for i in range(a):
+    graph.append(['X'] * a)
+
+for i in std.keys():
+    print(search(i))
+
+
+
 # for i in range(a*a):
 #     q = deque(std[i])
 #     print(q)
@@ -84,85 +151,3 @@ dic = {}
 #                 q = [q[0], q[1], x_, y_, j[3], j[2]]
 #         break
 # graph = [['X'] * a] * a
-graph = []
-for i in range(a):
-    graph.append(['X'] * a)
-def search(student):
-    count_dic = {}
-    # for student in std.keys():
-
-    # 근처 친구 수, 근처 비어있는 자리, x좌표, y좌표
-    count_dic[student] = [0, 0, 0, 0]
-    count_list = []
-    for i in range(a):
-        for j in range(a):
-
-            fri_count = 0
-            x_count = 0
-            if graph[i][j] != 'X':
-                continue
-            else:
-                dx = [-1, 1, 0, 0]
-                dy = [0, 0, -1, 1]
-
-
-                for k in range(4):
-                    nx = i + dx[k]
-                    ny = j + dy[k]
-
-                    # 장외 탈락
-                    if nx < 0 or nx >= a or ny < 0 or ny >= a:
-                        continue
-
-                    fri_count += near_fri(nx, ny, student)
-                    x_count += count_pos(nx, ny)
-                # print(student, i, j, fri_count, x_count)
-                count_list.append([student, i, j, fri_count, x_count ])
-    # print(count_list)
-    # if count_dic[student][1] <= x_count:
-    #     if count_dic[student][1] == x_count:
-    #         continue
-    #     elif count_dic[student][0] <= fri_count:
-    #         if count_dic[student][0] == fri_count:
-    #             pass
-    #         count_dic[student] = [fri_count, x_count, i, j]
-
-    fri_count_max = 0
-    x_count_max = 0
-
-    # 좋아하는 학생이 인접한 수가 가장 많은 것 거르기
-    for i in count_list:
-        if fri_count_max < i[3]:
-            fri_count_max = i[3]
-
-        # if x_count_max < i[4]:
-        #     x_count_max = i[4]
-
-    count_dic[student][0] = fri_count_max
-    # count_dic[student][1] = x_count_max
-
-    # 그 중 비어 있는 칸 가장 많은 것 거르기
-    for i in count_list:
-        if i[3] == fri_count_max:
-            if x_count_max < i[4]:
-                x_count_max = i[4]
-
-
-    # 가장 작은 x, y좌표 거르기
-    for i in count_list:
-        if i[3] == fri_count_max:
-            if i[4] == x_count_max:
-                x = i[1]
-                y = i[2]
-                break
-
-    # x = count_dic[student][2]
-    # y = count_dic[student][3]
-    graph[x][y] = student
-    # print(count_dic)
-    return graph
-
-# print(search(4))
-# print(search(3))
-for i in std.keys():
-    print(search(i))
