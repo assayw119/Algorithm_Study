@@ -1,5 +1,3 @@
-from collections import deque
-
 # 아무도 없는 자리일 경우 1 반환
 def count_pos(x, y):
     # if x < 0 or x >= a or y < 0 or y >= a:
@@ -10,7 +8,7 @@ def count_pos(x, y):
 
     return 0
 
-# 근처에 좋아하는 학생 있는 모든 경우의 수 반환
+# 근처에 있는 좋아하는 학생 수 반환
 def near_fri(x, y, s):
     count = 0
     # if x < 0 or x >= a or y < 0 or y >= a:
@@ -22,7 +20,6 @@ def near_fri(x, y, s):
 
 def search(student):
     count_dic = {}
-    # for student in std.keys():
 
     # 근처 친구 수, 근처 비어있는 자리, x좌표, y좌표
     count_dic[student] = [0, 0, 0, 0]
@@ -98,56 +95,35 @@ graph = []
 for i in range(a):
     graph.append(['X'] * a)
 
+# 최종 그래프 변수
 for i in std.keys():
-    print(search(i))
+    result = search(i)
 
 
+dx = [-1, 1, 0, 0]
+dy = [0, 0, -1, 1]
 
-# for i in range(a*a):
-#     q = deque(std[i])
-#     print(q)
-#     dx = [-1, 1, 0, 0]
-#     dy = [0, 0, -1, 1]
-#     while q:
-#         # v = q.popleft()
-#         # print(v)
-#
-#         x = q[2]
-#         y = q[3]
-#         x_count = q[4]
-#         fri_count = q[5]
-#         if x == 2 and y == 2:
-#             break
-#         if graph[x][y] == 'X':
-#             count_list = []
-#             for i in range(4):
-#                 nx = x + dx[i]
-#                 ny = y + dy[i]
-#
-#                 # 장외 탈락
-#                 if nx < 0 or nx >= a or ny < 0 or ny >= a:
-#                     continue
-#
-#                 # if near_fri(nx, ny) == True:
-#                 #     fri_count += 1
-#
-#                 # 좋아하는 친구 근처에 얼마나 있는지
-#                 if graph[nx][ny] in q[1]:
-#                     fri_count += 1
-#                 else:
-#                     fri_count = 0
-#
-#                 # 근처에 비어있는 자리 얼마나 있는지
-#                 x_count += count_pos(nx, ny)
-#
-#                 count_list.append([nx, ny, fri_count, x_count])
-#
-#         # max_fri_count = max(count_list[:][2])
-#         # max_x_count = max(count_list[:][3])
-#         for i, j in enumerate(count_list):
-#             if j[2] == max(count_list[:][2]) and j[3] == max(count_list[:][3]):
-#                 x_ = count_list[i][0]
-#                 y_ = count_list[i][1]
-#                 q = [q[0], q[1], x_, y_, j[3], j[2]]
-#         break
-# graph = [['X'] * a] * a
+total = 0
+for x in range(a):
+    for y in range(a):
+        num = 0
+
+        for k in range(4):
+            nx = x + dx[k]
+            ny = y + dy[k]
+
+            # 장외 탈락
+            if nx < 0 or nx >= a or ny < 0 or ny >= a:
+                continue
+
+            if result[nx][ny] in std[result[x][y]]:
+                num += 1
+        if num == 1:
+            total += 1
+        elif num == 2:
+            total += 10
+        elif num == 3:
+            total += 100
+        elif num == 4:
+            total += 1000
+print(total)
