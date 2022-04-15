@@ -11,7 +11,7 @@ for i in range(N):
             red_x, red_y = i, j
         if board[i][j] == 'B':
             blue_x, blue_y = i, j
-            
+
 dx = [1, 0, -1, 0]
 dy = [0, 1, 0, -1]
 
