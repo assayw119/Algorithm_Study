@@ -1,56 +1,31 @@
 import math
+from itertools import combinations
+from itertools import product
 
-n = int(input())
+# n = int(input())
+# num_list = [True for i in range(int(math.sqrt(n)))]
+# sqrt_list = [i*i for i in range(int(math.sqrt(n)),0,-1)]
 
-# def test(n):
-#
-#     sqrt_num = int(math.sqrt(n))
-#     print(sqrt_num, '*'*20)
-#     count = 0
-#     dic = {}
-#     for i in range(sqrt_num,0,-1):
-#         rest_num = n - i*i
-#         count += 1
-#
-#         if rest_num == 0:
-#             break
-#
-#
-#         test(rest_num)
-#     print()
-#
-# print(test(n))
+def test(a):
+    for i in range(a):
+        if a-i in sqrt_list:
+            test(i)
+print(test(n))
 
-num_list = [True for i in range(int(math.sqrt(n)))]
-sqrt_list = [i*i for i in range(int(math.sqrt(n)),0,-1)]
+dp = [int(1e9)] * (n+1)
 
-# for i in range(1, n+1):
-#     s = []
-#     for j in sqrt_list:
-#         if j > i:
-#             break
-#         s.append(num_list[i-j])
-#     print(s)
-#     num_list[i] = min(s) + 1
-# # print(num_list)
 
-total = 0
-lst = []
-for idx, i in enumerate(sqrt_list):
-    if num_list[idx] == False:
-        continue
-    if total + i > n:
-        continue
-    else:
-        total += i
-        lst.append(i)
-        num_list[idx] = False
-        if total == n:
-            break
-    print(num_list)
-print(lst)
 
-if sum(lst) == n:
-    print(len(lst))
-else:
-    print(len(lst) + n - sum(lst))
+
+
+
+# result = []
+# for a in sqrt_list:
+#     for b in sqrt_list:
+#         for c in sqrt_list:
+#             for d in sqrt_list:
+#                 if a+b+c+d == n:
+#                     lst = [a,b,c,d]
+#                     length = len(lst) - lst.count(0)
+#                     result.append(length)
+# print(min(result))
