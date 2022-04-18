@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba24fc01-bcb5-4959-8d74-af3d97f1c1c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/이.코.테/Dynamic/01_재귀코드.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/이.코.테/Dynamic/02_탑다운.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/이.코.테/Dynamic/03_보텀업.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/17626.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/17626.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/이.코.테/01_스택_구현_예제.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/이.코.테/02_큐_구현_예제.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/이.코.테/03_DFS_소스코드_예제.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/이.코.테/04_BFS_소스코드_예제.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/이.코.테/05_음료수_얼려먹기_문제.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/이.코.테/06_미로_탈출_문제.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/이.코.테/07_특정_거리_도시찾기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/이.코.테/08_경쟁적_전염.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/이.코.테/09_감시피하기.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +191,7 @@
       <workItem from="1650012845801" duration="4011000" />
       <workItem from="1650017012883" duration="14000" />
       <workItem from="1650018521659" duration="15488000" />
-      <workItem from="1650185067668" duration="4012000" />
+      <workItem from="1650185067668" duration="5346000" />
     </task>
     <servers />
   </component>
