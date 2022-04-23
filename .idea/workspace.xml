@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba24fc01-bcb5-4959-8d74-af3d97f1c1c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/이.코.테/Dynamic/06_효율적인_화폐구성.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/이.코.테/Dynamic/05_1로만들기.py" beforeDir="false" afterPath="$PROJECT_DIR$/이.코.테/Dynamic/05_1로만들기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/이.코.테/Dynamic/07_금광.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +193,7 @@
       <workItem from="1650018521659" duration="15488000" />
       <workItem from="1650185067668" duration="5346000" />
       <workItem from="1650257163150" duration="2365000" />
-      <workItem from="1650719689597" duration="3798000" />
+      <workItem from="1650719689597" duration="3912000" />
     </task>
     <servers />
   </component>
