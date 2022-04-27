@@ -1,11 +1,3 @@
-def seongeo(top_x, top_y, left_x, left_y, right_x, right_y, bottom_x, bottom_y):
-    s1 = []
-    s2 = []
-    s3 = []
-    s4 = []
-
-
-
 n = int(input())
 dp = []
 for i in range(n):
@@ -40,32 +32,52 @@ for i in range(1, n-1):
 
                 for x_ in range(n):
                     for y_ in range(n):
-                        # 가운데에 껴있는 5번
-                        if x_ > top_x and x_ < bottom_x and y_ > left_y and y_ < right_y:
-                            s5.append(dp[x_][y_])
-                        elif x_==top_x and y_==top_y:
-                            s5.append(dp[x_][y_])
-                        elif x_==left_x and y_==left_y:
-                            s5.append(dp[x_][y_])
-                        elif x_==right_x and y_==right_y:
-                            s5.append(dp[x_][y_])
-                        elif x_==bottom_x and y_==bottom_y:
-                            s5.append(dp[x_][y_])
-                        # 왼쪽 위
-                        elif x_ <= top_x and y_ <= top_y:
-                            s1.append(dp[x_][y_])
-                        # 오른쪽 위
-                        elif x_ <= right_x and y_ >= right_y:
-                            s2.append(dp[x_][y_])
-                        # 왼쪽 아래
-                        elif x_ >= left_x and y_ <= left_y:
-                            s3.append(dp[x_][y_])
-                        # 오른쪽 아래
-                        elif x_ >= bottom_x and y_ >= bottom_y:
-                            s4.append(dp[x_][y_])
+                        # s로 빠지는 곳 False 처리
+                        tf = [[True] * n] * n
 
-                print(i,j,x,y,'/////', sum(s1), sum(s2), sum(s3), sum(s4), sum(s5))
-#                 max_sum = max(sum(s1), sum(s2), sum(s3), sum(s4), sum(s5))
-#                 min_sum = min(sum(s1), sum(s2), sum(s3), sum(s4), sum(s5))
-#                 def_list.append(max_sum - min_sum)
-# print(min(def_list))
+                        # s1, s4
+                        for a in range(i):
+                            val1_x = top_x + a
+                            val1_y = top_y - a
+                            if x_ == val1_x and y_ < val1_y:
+                                s1.append(dp[x_][y_])
+                                tf[x_][y_] = False
+                            val4_x = bottom_x - a
+                            val4_y = bottom_y + a
+                            if x_ == val4_x and y_ > val4_y:
+                                s4.append(dp[x_][y_])
+                                tf[x_][y_] = False
+                        # s3, s2
+                        for b in range(j):
+                            val3_x = left_x + b
+                            val3_y = left_y + b
+                            if x_ == val3_x and y_ < val3_y:
+                                s3.append(dp[x_][y_])
+                                tf[x_][y_] = False
+                            val2_x = right_x - b
+                            val2_y = right_y - b
+                            if x_ == val2_x and y_ > val2_y:
+                                s2.append(dp[x_][y_])
+                                tf[x_][y_] = False
+                        # s1, s4 남은 부분
+                        if x_ < top_x and y_ <= top_y:
+                            s1.append(dp[x_][y_])
+                            tf[x_][y_] = False
+                        elif x_ > bottom_x and y_ >= bottom_y:
+                            s4.append(dp[x_][y_])
+                            tf[x_][y_] = False
+                        # s3, s2 남은 부분
+                        elif x_ >= bottom_x and y_ < bottom_y:
+                            s3.append(dp[x_][y_])
+                            tf[x_][y_] = False
+                        elif x_ <= top_x and y_ > top_y:
+                            s2.append(dp[x_][y_])
+                            tf[x_][y_] = False
+                        # s5 : 방문 안한 곳
+                        if tf[x_][y_] == True:
+                            s5.append(dp[x_][y_])
+                # print(i,j,x,y,'/////', sum(s1), sum(s2), sum(s3), sum(s4), sum(s5), tf)
+                max_sum = max(sum(s1), sum(s2), sum(s3), sum(s4), sum(s5))
+                min_sum = min(sum(s1), sum(s2), sum(s3), sum(s4), sum(s5))
+                def_list.append(max_sum - min_sum)
+print(min(def_list))
