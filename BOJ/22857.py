@@ -12,6 +12,5 @@ for i in s:
         break
     elif k > count:
 
-
 for i in s:
     if i % 2 == 0:
