@@ -9,7 +9,7 @@ def max_1(lst):
         if lst[i] == 1 and lst[i] == lst[i+1]:
             count += 1
         else:
-            
+
 
 
 
