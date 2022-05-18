@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba24fc01-bcb5-4959-8d74-af3d97f1c1c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BOJ/9084.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/이.코.테/Dynamic/06_효율적인_화폐구성.py" beforeDir="false" afterPath="$PROJECT_DIR$/이.코.테/Dynamic/06_효율적인_화폐구성.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ/test1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +204,7 @@
       <workItem from="1652431774894" duration="4490000" />
       <workItem from="1652760852374" duration="3114000" />
       <workItem from="1652804347424" duration="3957000" />
+      <workItem from="1652866199199" duration="227000" />
     </task>
     <servers />
   </component>
