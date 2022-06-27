@@ -11,36 +11,35 @@ for i in lst:
         graph.append(j)
 graph.sort(reverse=True)
 
-if graph[0] > 256:
-    max_h = 256
-else:
-    max_h = graph[0]
+max_h = graph[0]
 min_h = graph[-1]
-result_time = 100000000
+result_time = 999999999
 result_height = 0
 for height in range(min_h, max_h+1):
     time = 0
     block = b
     graph_ = graph.copy()
+    if (sum(graph_)+block)/len(graph) < height:
+        continue
+
     for i in range(n*m):
+        if block < 0:
+            break
+        temp = graph_[i] - height
         if graph_[i] > height:
-            time += 2 * (graph_[i] - height)
-            block += graph_[i] - height
-            graph_[i] = height
+            time += 2 * temp
+            block += temp
         elif graph_[i] < height:
             if block > 0:
-                time += height - graph_[i]
-                block -= height - graph_[i]
-                graph_[i] = height
-            else:
-                continue
-        else:
-            pass
-    # print(time, height)
-    # print(graph_)
-    if time == 0 or graph_.count(height) != len(graph_):
-        continue
-    if time < result_time:
+                time += -temp
+                block -= -temp
+        # graph_[i] = height
+        # print(time, height, block)
+        # print(graph_, (sum(graph_)+block))
+    if time == 0:
+        result_time = 0
+        result_height = graph[0]
+    elif time < result_time:
         result_time = time
         result_height = height
     elif time == result_time:
