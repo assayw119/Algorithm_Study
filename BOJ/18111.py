@@ -1,38 +1,44 @@
-n,m,b = list(map(int, input().split()))
+import sys
+n,m,b = list(map(int, sys.stdin.readline().split()))
+
+lst = []
+for _ in range(n):
+    lst.append(list(map(int, sys.stdin.readline().split())))
 
 graph = []
-for _ in range(n):
-    graph.append(list(map(int, input().split())))
-
-max_h = 0
-min_h = 256
-for i in graph:
+for i in lst:
     for j in i:
-        if j > max_h:
-            max_h = j
-        if j < min_h:
-            min_h = j
+        graph.append(j)
+graph.sort(reverse=True)
 
+if graph[0] > 256:
+    max_h = 256
+else:
+    max_h = graph[0]
+min_h = graph[-1]
 result_time = 100000000
 result_height = 0
 for height in range(min_h, max_h+1):
     time = 0
     block = b
-    for i in range(n):
-        for j in range(m):
-            if graph[i][j] > height:
-                time += 2 * (graph[i][j] - height)
-                graph[i][j] = height
-                block += 1
-            elif graph[i][j] < height:
-                if block > 0:
-                    block -= 1
-                    time += height - graph[i][j]
-                    graph[i][j] = height
+    graph_ = graph.copy()
+    for i in range(n*m):
+        if graph_[i] > height:
+            time += 2 * (graph_[i] - height)
+            block += graph_[i] - height
+            graph_[i] = height
+        elif graph_[i] < height:
+            if block > 0:
+                time += height - graph_[i]
+                block -= height - graph_[i]
+                graph_[i] = height
             else:
-                pass
+                continue
+        else:
+            pass
     # print(time, height)
-    if time == 0:
+    # print(graph_)
+    if time == 0 or graph_.count(height) != len(graph_):
         continue
     if time < result_time:
         result_time = time
