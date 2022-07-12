@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba24fc01-bcb5-4959-8d74-af3d97f1c1c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/BOJ_2xxx/2590.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/BOJ_2xxx/2590.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ/BOJ_12xxx/12739.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/BOJ_12xxx/12739.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <recent name="$PROJECT_DIR$/BOJ" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2590">
+  <component name="RunManager" selected="Python.12739">
     <configuration name="1010" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BaekJoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,8 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2590" />
         <item itemvalue="Python.12739" />
+        <item itemvalue="Python.2590" />
         <item itemvalue="Python.1010" />
         <item itemvalue="Python.1780" />
         <item itemvalue="Python.5430" />
@@ -226,7 +226,7 @@
       <workItem from="1656911522140" duration="22987000" />
       <workItem from="1657006498726" duration="9932000" />
       <workItem from="1657525778195" duration="19574000" />
-      <workItem from="1657611051688" duration="4679000" />
+      <workItem from="1657611051688" duration="5717000" />
     </task>
     <servers />
   </component>
@@ -260,7 +260,7 @@
     <SUITE FILE_PATH="coverage/BaekJoon$test.coverage" NAME="test Coverage Results" MODIFIED="1650998793429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
     <SUITE FILE_PATH="coverage/BaekJoon$sk_2.coverage" NAME="sk_2 Coverage Results" MODIFIED="1655000412893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/이.코.테/CodingTest" />
     <SUITE FILE_PATH="coverage/BaekJoon$sk_1.coverage" NAME="sk_1 Coverage Results" MODIFIED="1654998701643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/이.코.테/CodingTest" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study$12739.coverage" NAME="12739 Coverage Results" MODIFIED="1657545610310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_12xxx" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study$12739.coverage" NAME="12739 Coverage Results" MODIFIED="1657617094883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_12xxx" />
     <SUITE FILE_PATH="coverage/BaekJoon$05_1.coverage" NAME="05_1로만들기 Coverage Results" MODIFIED="1650723998009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/이.코.테/Dynamic" />
     <SUITE FILE_PATH="coverage/Algorithm_Study$2468.coverage" NAME="2468 Coverage Results" MODIFIED="1656915068126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
     <SUITE FILE_PATH="coverage/BaekJoon$12865.coverage" NAME="12865 Coverage Results" MODIFIED="1652931403917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
