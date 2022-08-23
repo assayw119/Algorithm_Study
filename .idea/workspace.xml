@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba24fc01-bcb5-4959-8d74-af3d97f1c1c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ba24fc01-bcb5-4959-8d74-af3d97f1c1c4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +248,7 @@
       <workItem from="1660497347336" duration="181000" />
       <workItem from="1660539252169" duration="25865000" />
       <workItem from="1661068943630" duration="19767000" />
-      <workItem from="1661165130622" duration="13432000" />
+      <workItem from="1661165130622" duration="13743000" />
     </task>
     <servers />
   </component>
@@ -331,7 +329,7 @@
     <SUITE FILE_PATH="coverage/BaekJoon$03_.coverage" NAME="03_보텀업 Coverage Results" MODIFIED="1650189066549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/이.코.테/Dynamic" />
     <SUITE FILE_PATH="coverage/Algorithm_Study$17626.coverage" NAME="17626 Coverage Results" MODIFIED="1657867922535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_17xxx" />
     <SUITE FILE_PATH="coverage/Algorithm_Study$4485.coverage" NAME="4485 Coverage Results" MODIFIED="1660464845063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_4xxx" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study$20055.coverage" NAME="20055 Coverage Results" MODIFIED="1661180771474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_20xxx" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study$20055.coverage" NAME="20055 Coverage Results" MODIFIED="1661180846516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_20xxx" />
     <SUITE FILE_PATH="coverage/Algorithm_Study$2206.coverage" NAME="2206 Coverage Results" MODIFIED="1658652737878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_2xxx" />
     <SUITE FILE_PATH="coverage/BaekJoon$7569.coverage" NAME="7569 Coverage Results" MODIFIED="1653398380396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
     <SUITE FILE_PATH="coverage/Algorithm_Study$2590.coverage" NAME="2590 Coverage Results" MODIFIED="1657615926272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_2xxx" />
