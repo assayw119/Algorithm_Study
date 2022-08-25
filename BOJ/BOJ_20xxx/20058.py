@@ -71,7 +71,6 @@ def bfs(arr):
                 ice_size.append((size, cnt))
     return ice_size
 
-
 for l in L:
 
     arr = decrease(storm(arr, l))
