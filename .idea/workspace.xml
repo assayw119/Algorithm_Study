@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba24fc01-bcb5-4959-8d74-af3d97f1c1c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/BOJ/BOJ_14xxx/14891.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/BOJ_14xxx/14891.py" afterDir="false" />
-    </list>
+    <list default="true" id="ba24fc01-bcb5-4959-8d74-af3d97f1c1c4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,7 +254,7 @@
       <workItem from="1661620708312" duration="218000" />
       <workItem from="1661706606025" duration="12000" />
       <workItem from="1661856006727" duration="8213000" />
-      <workItem from="1662382196206" duration="5000" />
+      <workItem from="1662382196206" duration="13000" />
     </task>
     <servers />
   </component>
