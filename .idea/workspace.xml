@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba24fc01-bcb5-4959-8d74-af3d97f1c1c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Programmers/두큐합 같게만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmers/모의고사.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmers/여행경로.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmers/피로도.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmers/입국심사.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BOJ/BOJ_14xxx/14891.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/BOJ_14xxx/14891.py" afterDir="false" />
     </list>
@@ -65,7 +62,7 @@
       <recent name="$PROJECT_DIR$/BOJ/BOJ_14xxx" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.여행경로">
+  <component name="RunManager" selected="Python.피로도">
     <configuration name="두큐합 같게만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BaekJoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,28 +99,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/모의고사.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="14891" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BaekJoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BOJ/BOJ_14xxx" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BOJ/BOJ_14xxx/14891.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,13 +151,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="피로도" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BaekJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/피로도.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.피로도" />
         <item itemvalue="Python.여행경로" />
         <item itemvalue="Python.두큐합 같게만들기" />
         <item itemvalue="Python.팰린드롬" />
         <item itemvalue="Python.모의고사" />
-        <item itemvalue="Python.14891" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +264,7 @@
       <workItem from="1663339670412" duration="27000" />
       <workItem from="1663376617189" duration="8145000" />
       <workItem from="1663507484940" duration="6925000" />
-      <workItem from="1663856189645" duration="18705000" />
+      <workItem from="1663856189645" duration="20984000" />
     </task>
     <servers />
   </component>
@@ -313,8 +310,8 @@
     <SUITE FILE_PATH="coverage/Algorithm_Study$14888.coverage" NAME="14888 Coverage Results" MODIFIED="1660544534221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_14xxx" />
     <SUITE FILE_PATH="coverage/BaekJoon$16234.coverage" NAME="16234 Coverage Results" MODIFIED="1651153637092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
     <SUITE FILE_PATH="coverage/BaekJoon$2805.coverage" NAME="2805 Coverage Results" MODIFIED="1652435936224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study$_.coverage" NAME="두큐합 같게만들기 Coverage Results" MODIFIED="1664011083952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
-    <SUITE FILE_PATH="coverage/Algorithm_Study$.coverage" NAME="여행경로 Coverage Results" MODIFIED="1664014513363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study$_.coverage" NAME="두큐합 같게만들기 Coverage Results" MODIFIED="1664028908900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study$.coverage" NAME="피로도 Coverage Results" MODIFIED="1664028913063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Programmers" />
     <SUITE FILE_PATH="coverage/Algorithm_Study$4821.coverage" NAME="4821 Coverage Results" MODIFIED="1659959052079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_4xxx" />
     <SUITE FILE_PATH="coverage/Algorithm_Study$2178.coverage" NAME="2178 Coverage Results" MODIFIED="1659274009588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_2xxx" />
     <SUITE FILE_PATH="coverage/Algorithm_Study$12100.coverage" NAME="12100 Coverage Results" MODIFIED="1658644900112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_12xxx" />
