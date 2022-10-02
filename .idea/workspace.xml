@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba24fc01-bcb5-4959-8d74-af3d97f1c1c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Programmers/섬 연결하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/BOJ_14xxx/14891.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/BOJ_14xxx/14891.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmers/섬 연결하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/섬 연결하기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <recent name="$PROJECT_DIR$/BOJ/BOJ_14xxx" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.피로도">
+  <component name="RunManager" selected="Python.두큐합 같게만들기">
     <configuration name="두큐합 같게만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BaekJoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,10 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.피로도" />
-        <item itemvalue="Python.여행경로" />
         <item itemvalue="Python.두큐합 같게만들기" />
-        <item itemvalue="Python.팰린드롬" />
         <item itemvalue="Python.모의고사" />
       </list>
     </recent_temporary>
@@ -265,6 +260,7 @@
       <workItem from="1663376617189" duration="8145000" />
       <workItem from="1663507484940" duration="6925000" />
       <workItem from="1663856189645" duration="22862000" />
+      <workItem from="1664720081575" duration="4000" />
     </task>
     <servers />
   </component>
