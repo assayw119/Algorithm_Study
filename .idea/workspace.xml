@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba24fc01-bcb5-4959-8d74-af3d97f1c1c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BOJ/BOJ_14xxx/14503.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOJ/BOJ_15xxx/15683.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/이.코.테/CodingTest/samsung_나무박멸.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,29 +61,7 @@
       <recent name="$PROJECT_DIR$/BOJ/BOJ_14xxx" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.15683">
-    <configuration name="두큐합 같게만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BaekJoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Programmers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Programmers/두큐합 같게만들기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.samsung_나무박멸">
     <configuration name="14503" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BaekJoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,13 +216,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="samsung_나무박멸" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BaekJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/이.코.테/CodingTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/이.코.테/CodingTest/samsung_나무박멸.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.samsung_나무박멸" />
         <item itemvalue="Python.15683" />
         <item itemvalue="Python.14503" />
         <item itemvalue="Python.14925" />
         <item itemvalue="Python.1890" />
-        <item itemvalue="Python.두큐합 같게만들기" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +333,7 @@
       <workItem from="1664720081575" duration="14000" />
       <workItem from="1664758734586" duration="9223000" />
       <workItem from="1664978591141" duration="3260000" />
-      <workItem from="1665190805639" duration="6043000" />
+      <workItem from="1665190805639" duration="24050000" />
     </task>
     <servers />
   </component>
@@ -429,6 +428,7 @@
     <SUITE FILE_PATH="coverage/Algorithm_Study$4485.coverage" NAME="4485 Coverage Results" MODIFIED="1660464845063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_4xxx" />
     <SUITE FILE_PATH="coverage/Algorithm_Study$20055.coverage" NAME="20055 Coverage Results" MODIFIED="1661180846516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_20xxx" />
     <SUITE FILE_PATH="coverage/Algorithm_Study$2206.coverage" NAME="2206 Coverage Results" MODIFIED="1658652737878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_2xxx" />
+    <SUITE FILE_PATH="coverage/Algorithm_Study$samsung_.coverage" NAME="samsung_나무박멸 Coverage Results" MODIFIED="1665237048182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/이.코.테/CodingTest" />
     <SUITE FILE_PATH="coverage/BaekJoon$7569.coverage" NAME="7569 Coverage Results" MODIFIED="1653398380396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ" />
     <SUITE FILE_PATH="coverage/Algorithm_Study$2590.coverage" NAME="2590 Coverage Results" MODIFIED="1657615926272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BOJ/BOJ_2xxx" />
     <SUITE FILE_PATH="coverage/BaekJoon$04_BFS__.coverage" NAME="04_BFS_소스코드_예제 Coverage Results" MODIFIED="1649610330092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/이.코.테" />
